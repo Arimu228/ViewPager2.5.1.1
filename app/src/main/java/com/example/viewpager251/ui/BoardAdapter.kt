@@ -1,5 +1,3 @@
-@file:Suppress("DEPRECATION")
-
 package com.example.viewpager251.ui
 
 import androidx.core.os.bundleOf
@@ -8,10 +6,7 @@ import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentStatePagerAdapter
 import com.example.viewpager251.R
 
-class BoardAdapter(
-    fm: FragmentManager,
-
-) : FragmentStatePagerAdapter(fm) {
+class BoardAdapter(fm: FragmentManager,) : FragmentStatePagerAdapter(fm) {
 
     private val listBoarding = arrayOf(
         BoardModel(
